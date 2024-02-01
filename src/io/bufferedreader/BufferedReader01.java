@@ -20,12 +20,11 @@ public class BufferedReader01 {
                 str1 = br.readLine();
                 if (n == 0){
 
-                    throw new NumberFormatException("Integer only.");
+                    throw new NumberFormatException();
                 }
                 break;
             } catch (NumberFormatException e) {
                 System.out.println(e.getMessage());
-                e.printStackTrace();
                 br = new BufferedReader(new InputStreamReader(System.in));
             }
 
