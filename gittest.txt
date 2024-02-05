@@ -6,4 +6,16 @@ this is a test from remote repository.
 
 this line added from local repository.
 
+this line added from remote repository.
+
 this line added from local repository at 15:01.
+('git push' failed. -- Update was rejected, since remote contains work that does not exist on local.)
+See 'Note about fast-forwards' in 'git push --help' for details.
+
+remote commit and local commit were separated, could not push from local,
+on local, need to fetch remote,
+pull remote commit head and resolve conflicts with local head, then merged on local.
+
+check if there's an update on remote everytime, fetch remote, check diffs, merge it on local with caution.
+
+or branch it.
