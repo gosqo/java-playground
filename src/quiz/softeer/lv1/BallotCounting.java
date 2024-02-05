@@ -1,4 +1,4 @@
-package softeer.lv1;
+package quiz.softeer.lv1;
 
 import java.io.IOException;
 import java.util.Scanner;

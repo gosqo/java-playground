@@ -1,4 +1,4 @@
-package softeer.lv3;
+package quiz.softeer.lv3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
