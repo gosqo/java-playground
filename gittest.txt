@@ -1,2 +1,7 @@
 hello git.
+this is a test with remote repository.
+
+hello git.
 this is a test from remote repository.
+
+this line added from local repository.
