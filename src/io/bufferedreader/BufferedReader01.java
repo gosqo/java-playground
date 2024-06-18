@@ -12,13 +12,11 @@ public class BufferedReader01 {
         boolean bl = br.ready();
         String str1 = "";
 
-
         while (true) {
-
             try {
                 n = Integer.parseInt(br.readLine());
                 str1 = br.readLine();
-                if (n == 0){
+                if (n == 0) {
 
                     throw new NumberFormatException();
                 }
@@ -27,8 +25,8 @@ public class BufferedReader01 {
                 System.out.println(e.getMessage());
                 br = new BufferedReader(new InputStreamReader(System.in));
             }
-
         }
+
         boolean bl2 = br.ready();
 
         System.out.println(n);
